@@ -24,7 +24,7 @@ export const graphqlQuery = `query ($username: String!, $number_of_users: Int!, 
 export const axiosGitHubGraphQL = axios.create({
     baseURL: 'https://api.github.com/graphql',
     headers: {
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer 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`,
         "Content-Type": "application/json",
     },
 });
