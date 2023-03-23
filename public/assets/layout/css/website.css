@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+}
+
+.main {
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.topbar {
+    margin: 2rem
+}
+
+.title-topbar {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #fff;
+    font-size: 48px;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    color: #1b1b1b;
+    border-radius: 1rem;
+}
+
+.btn-search {
+    background-color: #1b1b1b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem
+}
+
+.btn-search:hover {
+    opacity: 0.7 !important;
+    background-color: #1b1b1b !important;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.dialog-response-fail>.p-dialog-header {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #D01224;
+}
+
+.dialog-response-fail>.p-dialog-content {
+    padding: 1rem;
+}
+
+.dialog-response-fail>.p-dialog-header>.p-dialog-header-icons>.p-dialog-header-icon {
+    color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .title-topbar {
+        font-size: 36px;
+    }
+}
