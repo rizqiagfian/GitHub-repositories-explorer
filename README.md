@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App].
+See project at https://github-repo-rizqi-agfian.netlify.app/
+I used mainly these packages in order to make things work: GraphQl, React, Typescript, Primereact, Axios, tsparticles and more.
 
 ## Available Scripts
 
